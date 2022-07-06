@@ -70,7 +70,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
+  /* text-align: center; */
 }
 /*h3 in list_work*/
 .list_work_subtitle {
