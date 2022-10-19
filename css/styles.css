@@ -28,9 +28,7 @@ body {
   color: var(--color-text-prime);
   font-family: "Roboto", sans-serif;
   /* font-style: normal;*/
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  /*font-weight: 400;*/
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -76,6 +74,13 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
+/*p */
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 .profession,
 .work_direction {
   font-size: 16px;
@@ -168,6 +173,8 @@ body {
 
 .footer_address {
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
   color: var(--color-white);
 }
 .footer_address .link {
