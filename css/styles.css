@@ -46,10 +46,7 @@ body {
   text-transform: uppercase;
 }
 
-.title_secondary,
-.our_priority_subtitle,
-.our_command_subtitle,
-.list_work_subtitle {
+.subtitle {
   color: var(--color-text-header);
 }
 /*h2 in our_priority*/
@@ -85,7 +82,7 @@ body {
   line-height: 1.19;
 }
 
-ul {
+.list {
   list-style: none;
 }
 .link {
