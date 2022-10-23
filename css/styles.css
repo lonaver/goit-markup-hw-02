@@ -33,6 +33,23 @@ body {
 
   letter-spacing: 0.03em;
 }
+.our_command {
+  background-color: var(--color-background-grey);
+}
+/* ховаємо заголовки */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .primary_title {
   font-weight: 900;
   font-size: 44px;
@@ -107,6 +124,11 @@ body {
 .footer_address .link:focus {
   color: var(--color-blue);
 }
+
+.navigation .link.current {
+  color: var(--color-blue);
+}
+
 .filter .link,
 .adress_head .link {
   color: var(--color-text-prime);
